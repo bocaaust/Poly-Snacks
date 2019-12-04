@@ -15,6 +15,8 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 var dorms = new L.marker([28.15073532358767, -81.84925017022623]).bindPopup("<h4>Phase 1 Residence Hall</h4><a href='dorms.html'><button id='dormsButton' type='button' class='btn btn-lg btn-success'>Check Inventory</button></a>").addTo(mymap);
 
+var ist = new L.marker([28.15047044309, -81.8508487667]).bindPopup("<h4>Innovation, Science & Technology Building</h4><a href='ist.html'><button type='button' class='btn btn-lg btn-success'>Check Inventory</button></a>").addTo(mymap);
+
 
 var wellness = new L.marker([28.14948662567814,-81.8472116913749]).bindPopup("<h4>Wellness Center</h4><a href='wellness.html'><button type='button' class='btn btn-lg btn-success'>Check Inventory</button></a>").addTo(mymap);
 
